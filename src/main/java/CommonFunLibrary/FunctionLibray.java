@@ -119,6 +119,13 @@ public class FunctionLibray extends PBconstant{
 		Reporter.log("Logout Fail",true);
 		return false;
 	}
+	
+	}
+	public static void add()
+	{
+		int a=987,b=98,c;
+		c= a+b;
+		System.out.println(c);
 	}
 }
 
